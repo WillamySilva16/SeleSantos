@@ -1,0 +1,92 @@
+issues:
+  - title: "Criar tela de cadastro de usuários"
+    body: |
+      Implementar a tela de cadastro com os campos obrigatórios:
+      - Nome completo
+      - E-mail
+      - Celular (com máscara)
+      - Idade
+      - Gênero
+      - Termo de consentimento (checkbox)
+
+      **Critérios de Aceite:**
+      - Todos os campos obrigatórios devem ter validação.
+      - O lead deve ser salvo no banco ao clicar em "Próximo".
+
+  - title: "Implementar validação de formulários"
+    body: |
+      Adicionar validações em todos os formulários (front-end e back-end).
+
+      **Critérios de Aceite:**
+      - Nome entre 10 e 100 caracteres
+      - E-mail válido
+      - Celular no formato (00) 91234-5678
+      - Idade entre 0 e 120 anos
+      - Consentimento obrigatório
+
+  - title: "Criar tela de escolha do esquema tático"
+    body: |
+      Interface para o usuário selecionar o esquema tático (3-5-2, 4-3-3, 4-2-4, 4-4-2).
+
+      **Critérios de Aceite:**
+      - Só avança se selecionar uma opção.
+      - O esquema deve permanecer visível em todas as etapas.
+
+  - title: "Implementar lógica de mudança de esquema tático"
+    body: |
+      Garantir que, ao trocar o esquema, todos os jogadores selecionados sejam resetados.
+
+      **Critérios de Aceite:**
+      - Exibir modal de aviso ao trocar esquema.
+      - Resetar seleção de jogadores.
+
+  - title: "Criar etapa de posição do Pelé"
+    body: |
+      Adicionar etapa onde o usuário escolhe se o Pelé joga no meio ou no ataque.
+
+      **Critérios de Aceite:**
+      - Exibir opções em formato de card (meia ou atacante).
+      - Só avança após seleção.
+      - Pelé deve ser fixado na posição escolhida.
+
+  - title: "Desenvolver seleção de jogadores"
+    body: |
+      Tela para escolha dos jogadores conforme esquema tático.
+
+      **Critérios de Aceite:**
+      - Exibir opções corretas para cada posição.
+      - Só avança se todas as posições forem preenchidas.
+      - Deve ser possível voltar e alterar escolhas.
+
+  - title: "Implementar salvar escalação no banco"
+    body: |
+      No final, salvar a escalação completa do time no banco de dados.
+
+      **Critérios de Aceite:**
+      - Dados devem ser gravados corretamente.
+      - Registro deve estar vinculado ao usuário cadastrado.
+
+  - title: "Gerar imagem final do time escalado"
+    body: |
+      Gerar uma imagem do campo com os jogadores escolhidos pelo usuário.
+
+      **Critérios de Aceite:**
+      - A imagem deve exibir corretamente as posições escolhidas.
+      - Deve ser possível salvar a imagem no dispositivo.
+
+  - title: "Implementar compartilhamento em redes sociais"
+    body: |
+      Adicionar botões de compartilhamento da escalação final.
+
+      **Critérios de Aceite:**
+      - Compartilhar no WhatsApp, Facebook e Twitter.
+      - Link da escalação deve ser funcional.
+
+  - title: "Desenvolver área de relatórios e exportação"
+    body: |
+      Criar painel administrativo para exportação de leads e estatísticas.
+
+      **Critérios de Aceite:**
+      - Relatório de leads exportável em CSV/Excel.
+      - Relatório de estatísticas mostrando porcentagem de escolhas.
+      - Controle de acesso por login e senha.
