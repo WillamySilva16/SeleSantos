@@ -17,7 +17,7 @@ Este projeto faz parte da campanha **Santos do Mundo** 🌍.
 - [ ] Implementar validação de formulários  
 - [ ] Criar tela de escolha do esquema tático  
 - [ ] Implementar lógica de mudança de esquema tático  
-- [ ] Criar etapa de posição do Pelé  
+- [ ] Criar etapa de posição do Pelé e de outros jogadores
 - [ ] Desenvolver seleção de jogadores  
 - [ ] Implementar salvar escalação no banco  
 - [ ] Gerar imagem final do time escalado  
